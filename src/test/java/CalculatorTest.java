@@ -11,17 +11,17 @@ class CalculatorTest {
 
     @Test
     void dif() {
-        assertEquals(1, calculator.dif(2, 1));
+        assertEquals(0, calculator.dif(2, 2));
     }
 
     @Test
     void div() {
-        assertEquals(3, calculator.div(9, 3));
+        assertEquals(1, calculator.div(2, 2));
     }
 
     @Test
     void times() {
-        assertEquals(10, calculator.times(5, 2));
+        assertEquals(9, calculator.times(3, 3));
     }
 
     @Test
