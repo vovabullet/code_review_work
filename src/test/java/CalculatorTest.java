@@ -3,9 +3,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
-
     Calculator calculator = new Calculator();
-
     @Test
     void add() {
         assertEquals(4, calculator.add(2, 2));
@@ -28,6 +26,6 @@ class CalculatorTest {
 
     @Test
     void solver() {
-        assertEquals(5, calculator.solver(2, 2));
+        assertEquals(10, calculator.solver(4, 2));
     }
 }
